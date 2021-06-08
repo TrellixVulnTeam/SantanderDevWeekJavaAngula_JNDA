@@ -1,8 +1,6 @@
 package com.projectBootcamp.model.dto;
-
 import com.fasterxml.jackson.annotation.JsonFormat;
 import io.swagger.v3.core.util.Json;
-
 import javax.validation.constraints.DecimalMin;
 import javax.validation.constraints.Digits;
 import javax.validation.constraints.NotNull;
@@ -23,7 +21,8 @@ public class StockDTO {
 
     @NotNull
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd/MM/yyyy")
-    private LocalDate date;
+
+    public LocalDate date;
 
     @NotNull
     @Digits(integer = 3, fraction = 2)

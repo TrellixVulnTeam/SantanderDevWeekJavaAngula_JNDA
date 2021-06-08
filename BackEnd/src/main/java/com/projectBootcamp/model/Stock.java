@@ -4,6 +4,8 @@ import javax.persistence.*;
 import java.time.LocalDate;
 
 @Entity
+@SequenceGenerator(name = "nome_seq", sequenceName = "nome_seq_no_banco", allocationSize = 1, initialValue = 1)
+//@SequenceGenerator(name = "nome_seq", sequenceName = "nome_seq_no_banco", allocationSize = 1, initialValue = 1)
 @Table(name = "tb_stock")
 public class Stock {
 

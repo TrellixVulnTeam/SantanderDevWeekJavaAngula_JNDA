@@ -8,3 +8,6 @@
 * Configurando banco de dados PostgreSQL
 * Mapeando entidades
 * Criando repository 
+* Camada service
+* Criando Mapper de conversão 
+* Criando Exceptions Handlers 
